@@ -121,12 +121,16 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv*
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+.yn/
+.y2/
+.y3/
+.dvcenv
 
 # Spyder project settings
 .spyderproject
@@ -159,16 +163,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
-# Env
-.env*
-
-# data
 *.csv
-*.py_mycache
-
-# Mac OS
-.DS_Store
-
-# Another cache
-cache/
