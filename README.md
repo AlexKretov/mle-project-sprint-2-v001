@@ -33,18 +33,18 @@
 Убедтесь, что S3_BUCKET_NAME=s3-student-mle-20250130-833968fcc1 - это важно для корректной работы проекты.
 ### Запустите ML-Flow Registry Server
  Выполните в командной строке активацию сервера:
- *sh run_mlflow_server.sh* [#Здесь находится файл с настройками сервера](https://github.com/AlexKretov/yn/blob/06abedc2dce9a72f979d40b30d7b322513b8cf61/run_mlflow_server.sh)
+ *sh run_mlflow_server.sh* [#Здесь находится файл с настройками сервера](https://github.com/AlexKretov/mle-project-sprint-2-v001/blob/d1b29fdd41507d616d07345e2dd009cef477bbc2/run_mlflow_server.sh)
 Теперь всё готово и можно загрузить набор данных полученных на прошлом спринте.
 ### Загрузка старой модели
 Для загрузки модели из первого спринта необходимо запустить тетрадку 
-[#вот эту тетрадку](https://github.com/AlexKretov/yn/blob/bee2f6b5bb75f0aed1330b3a15cf4694d937a242/notebooks/baseline.ipynb)
+[#вот эту тетрадку](https://github.com/AlexKretov/mle-project-sprint-2-v001/blob/d1b29fdd41507d616d07345e2dd009cef477bbc2/notebooks/baseline.ipynb)
 ### Анализ данных
 Следующий код позволяет изучить набор данных в детелях и графиках:
-[#eda.ipynb](https://github.com/AlexKretov/yn/blob/8b16241554327cf3e95fd4377afd2e6462f5fc1c/notebooks/eda.ipynb)
+[#eda.ipynb](https://github.com/AlexKretov/mle-project-sprint-2-v001/blob/d1b29fdd41507d616d07345e2dd009cef477bbc2/notebooks/eda.ipynb)
 ### Генерация признаков
 Для окончательной предобработки и генерации новых признаков, запускается вот эта тетрадка: 
-[#fitting.ipynb](https://github.com/AlexKretov/yn/blob/8b16241554327cf3e95fd4377afd2e6462f5fc1c/notebooks/fitting.ipynb)
+[#fitting.ipynb](https://github.com/AlexKretov/mle-project-sprint-2-v001/blob/d1b29fdd41507d616d07345e2dd009cef477bbc2/notebooks/fitting.ipynb)
 ### Оптимизация гиперпараметров
 Здесь проводится окончательная доводка и оценка модели.
-[#tuning.ipynb](https://github.com/AlexKretov/yn/blob/8b16241554327cf3e95fd4377afd2e6462f5fc1c/notebooks/tuning.ipynb)
+[#tuning.ipynb](https://github.com/AlexKretov/mle-project-sprint-2-v001/blob/d1b29fdd41507d616d07345e2dd009cef477bbc2/notebooks/tuning.ipynb)
 
